@@ -1,12 +1,26 @@
 <div class="container">
-    <h2>Our Products</h2>
-    <div class="raw">
-        <div class="col-6 cl1" >
-            <img class="bgimg" alt="logo"  src="/assets/images/bg5.png">
-            <button class="btn" [routerLink]="['productinside']">gok</button>
+    <div class="row rw1">
+        <div class="col-2">
+            <img class="img" alt="logo"  src="/assets/images/product-1.png">
         </div>
-        <div class="col-6">
-            <img class="bgimg" alt="logo"  src="/assets/images/bg5.png">
+        <div class="col-2">
+            <img class="img" alt="logo"  src="/assets/images/product-2.png">
+        </div>
+        <div class="col-2">
+            <img class="img" alt="logo"  src="/assets/images/product-3.png">
+        </div>
+        <div class="col-3 clprice">
+            <div class="quantity">
+                <button class="quantity__minus">-</button>
+                <input type="number" class="quantity__input" value="1" min="1" max="10">
+                <button class="quantity__plus">+</button>
+              </div>
+              
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-secondary">
+                <i class="fa fa-cart-plus" style="font-size:28px;color:rgb(255, 255, 255)" ></i>
+                ADD TO CART</button>
         </div>
     </div>
 </div>

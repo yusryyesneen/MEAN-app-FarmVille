@@ -1,8 +1,34 @@
-.cl1{
+.rw1{
+    padding-top: 5vh;
+}
+.img{
+    width: 100%;
+}
+.clprice{
+    text-align: center;
+    margin-top: 2vh;
+}
+.quantity {
+    display: flex;
     align-items: center;
-    padding-left: 500px;
-}
-.btn{
-    width: 250px;
-    border-color: aqua;
-}
+  }
+  
+  .quantity__input {
+    width: 60px;
+    text-align: center;
+    border-color:black ;
+  }
+  
+  .quantity__minus, .quantity__plus {
+    border-color: black;
+    background: none;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+  .quantity__minus[disabled], .quantity__plus[disabled]{
+    cursor: not-allowed;
+    opacity: 0.5;
+    
+  }
+  
